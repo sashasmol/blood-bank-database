@@ -17,7 +17,7 @@ Donor (did) D → S, in BCNF Form <br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(SD)<br />
 Blood Blank (b_name, b_address, b_num) N → AX <br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(NAX)<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;N → AX is not in BCNF<br />     
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;N → AX is not in BCNF     
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;N → AX is in 3NF because there are no transitive dependencies in this case <br />
 Profile(SSN, p_name, b_group, med_report, addr, num) S → NBREY (SNBREY)<br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;S → NBREY is not in 3NF because it has transitive dependencies (P → S and D→ S and S → NBREY)<br />
