@@ -3,8 +3,8 @@
 <img src= "Database ERD.png">
 
 #### Schema
-`Patients (pid: integer)`
-`Donors (did: integer)`
+>`Patients (pid: integer)`
+>`Donors (did: integer)`
 `Blood Blank (b_name: string, b_address: string, b_num: string)`
 `Profile (SSN: integer, p_name: string, b_group: string, med_report: string, addr: string, num:
 string)`
