@@ -3,12 +3,11 @@
 <img src= "Database ERD.png">
 
 #### Schema
->`Patients (pid: integer)`
->`Donors (did: integer)`
-`Blood Blank (b_name: string, b_address: string, b_num: string)`
-`Profile (SSN: integer, p_name: string, b_group: string, med_report: string, addr: string, num:
-string)`
-`Donates(did: integer, b_name: string) Collects(pid: integer, b_name:string)`
+`Patients (pid: integer)`<br />
+`Donors (did: integer)`<br />
+`Blood Blank (b_name: string, b_address: string, b_num: string)`<br />
+`Profile (SSN: integer, p_name: string, b_group: string, med_report: string, addr: string, num:string)`<br />
+`Donates(did: integer, b_name: string) Collects(pid: integer, b_name:string)`<br />
 
 #### Queries and Functional Dependencies
 Patient (pid) P → S, in BCNF Form (SP)
