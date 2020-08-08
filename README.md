@@ -22,6 +22,7 @@ Blood Blank (b_name, b_address, b_num) N → AX <br />
 Profile(SSN, p_name, b_group, med_report, addr, num) S → NBREY (SNBREY)<br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;S → NBREY is not in 3NF because it has transitive dependencies (P → S and D→ S and S → NBREY)<br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Therefore, S → NBREY is in 2NF<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In order to put this back into 3NF, transitive dependencies must be removed and be functionally dependent on the key → R1 = {P, D, S} and R2 = {S, N, B, R, E Y}.<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In order to put this back into 3NF, transitive dependencies must be removed and be functionally dependent on the key → R1 = {P, D, S} <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;and R2 = {S, N, B, R, E Y}.<br />
 Donates(did, b_name): No FDs, in BCNF Form <br />
 Collects(pid, b_name): No FDs, in BCNF Form
